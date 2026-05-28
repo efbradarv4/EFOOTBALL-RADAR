@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFootball Radar - Real-Time Server Analyzer</title>
+    
+    <!-- كود إعلانات Adlumia -->
+    <script type="text/javascript">
+        var UtBII_AIX_pTbmrc={"it":4608776,"key":"09462"};
+    </script>
+    <script src="https://d1g1lhd4vferpn.cloudfront.net/8baf3f6.js"></script>
+    
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #0f172a; 
+            color: #ffffff; 
+            text-align: center; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        .container { 
+            max-width: 500px; 
+            margin: auto; 
+            background: #1e293b; 
+            padding: 25px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        h1 { color: #38bdf8; margin-bottom: 5px; }
+        .subtitle { color: #94a3b8; margin-bottom: 20px; }
+        .status-card { 
+            background: #0f172a; 
+            padding: 15px; 
+            border-radius: 10px; 
+            border: 1px solid #334155;
+            margin-bottom: 20px;
+        }
+        .data-row { display: flex; justify-content: space-between; margin: 8px 0; }
+        .box-btn { 
+            background: #38bdf8; 
+            color: #0f172a; 
+            font-weight: bold;
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            transition: 0.3s;
+        }
+        .box-btn:hover { background: #7dd3fc; }
+        .telegram-btn { 
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #0088cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>eFootball Radar</h1>
+        <p class="subtitle">Real-Time Server Analyzer</p>
+        
+        <div class="status-card">
+            <div class="data-row"><span>المستخدمون النشطون:</span> <span>925</span></div>
+            <div class="data-row"><span>السيرفرات المتاحة:</span> <span>11/15</span></div>
+            <div class="data-row"><span>آخر تحديث:</span> <span>منذ دقيقتين</span></div>
+        </div>
+
+        <div class="box-btn">تحليل صندوق Showtime</div>
+        <div class="box-btn">تحليل صندوق Epic</div>
+
+        <a href="#" class="telegram-btn">انضم لمجتمعنا على تليجرام</a>
+    </div>
+</body>
+</html>
